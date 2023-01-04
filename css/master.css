@@ -1,3 +1,5 @@
+@import url(animation.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -256,6 +258,10 @@ footer ul li a:hover {
         animation-delay: 400ms;
     }
 
+    .nav-menu li:nth-child(4) {
+        animation-delay: 600ms;
+    }
+
     .nav-menu li a {
         color: var(--color-white);
         background: var(--color-blue);
@@ -271,17 +277,6 @@ footer ul li a:hover {
 );
         color: var(--color-white
 );
-    }
-
-    /*--- ANIMATION ---*/
-    @keyframes animateNavItems {
-        0% {
-            transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
-        }
-        100% {
-            transform: rotateZ(0);
-            opacity: 1;
-        }
     }
 
     /*--- FOOTER ---*/
