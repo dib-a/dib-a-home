@@ -208,6 +208,14 @@ header {
         grid-template-columns: 1fr 1fr;
     }
 
+    .motivations-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .motivation {
+        text-align: center;
+    }
+
     /*--- FAQ ---*/
     .faqs-container {
         grid-template-columns: 1fr;
