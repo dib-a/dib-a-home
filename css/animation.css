@@ -7,3 +7,14 @@
         opacity: 1;
     }
 }
+
+@keyframes slide {
+    0% {
+        left: 15rem;
+        opacity: 0;
+    }
+    100% {
+        left: 0rem;
+        opacity: 1;
+    }
+}

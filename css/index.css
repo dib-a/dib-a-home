@@ -1,4 +1,5 @@
 @import url("master.css");
+@import url("animation.css");
 
 /*--- HEADER ---*/
 header {
@@ -20,6 +21,13 @@ header {
 
 .header-left p {
     margin: 1rem 0 2.4rem;
+}
+
+.header-right-image img {
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 /*--- IMPORTANT FOR ME ---*/
