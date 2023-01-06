@@ -1,0 +1,269 @@
+@import url("master.css");
+@import url("animation.css");
+
+/*--- HEADER ---*/
+header {
+    color: var(--color-dark-blue);
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 100vh;
+    margin-bottom: 5rem;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.header-left p {
+    margin: 1rem 0 2.4rem;
+}
+
+/*--- IMPORTANT FOR ME ---*/
+.important-for-me {
+    height: 30rem;
+}
+
+.important-for-me-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.important-for-me-left {
+    margin-right: 4rem;
+}
+
+.important-for-me-left p {
+    margin: 1rem 0 3rem;
+}
+
+.important-for-me-right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.category {
+    background: var(--color-light-blue);
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.category:hover {
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.category-icon {
+    background-color: var(--color-dark-blue);
+    padding: 0.3rem;
+    border-radius: 0.9rem;
+    font-size: 1.7rem;
+}
+
+.category h5 {
+    margin: 2rem 0 1rem;
+}
+
+.category p {
+    font-size: 0.85rem;
+}
+
+/*--- PROJECTS ---*/
+.projects {
+    margin-top: 12rem;
+    color: var(--color-dark-blue);
+}
+
+.projects-container {
+    color: var(--color-white);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.project {
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.project:hover {
+    background-color: transparent;
+    border-color: var(--color-dark-blue);
+    color: var(--color-dark-blue);
+    box-shadow: none;
+}
+
+.project-info {
+    padding: 2rem;
+}
+
+.project-info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+/*--- MOTIVATION ---*/
+.motivations-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.motivation {
+    padding: 2rem;
+    align-items: center;
+    text-align: justify;
+}
+
+.motivation p {
+    margin-top: 0.8rem;
+}
+
+/*--- FAQ ---*/
+.faqs {
+    background: var(--color-white);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+    color: var(--color-dark-blue);
+}
+
+.faqs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    color: var(--color-white);
+}
+
+.faq {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    cursor: pointer;
+    box-shadow: inset 0 0 1rem var(--color-shadow)!important;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+}
+
+.faq-icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.faq p {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.faq.open p {
+    display: block;
+}
+
+/* MEDIA QUERIES (TABLET) */
+@media screen and (max-width: 1024px) {
+    /*--- HEADER ---*/
+    header {
+        height: 52vh;
+        margin-bottom: 4rem;
+    }
+
+    .header-container {
+        gap: 0;
+        padding-bottom: 3rem;
+    }
+
+    /*--- important-for-me ---*/
+    .important-for-me {
+        height: auto;
+    }
+
+    .important-for-me-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .important-for-me-left {
+        margin-right: 0;
+    }
+
+    /*--- projects ---*/
+    .projects {
+        margin-top: 0;
+    }
+    
+    .projects-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .motivations-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .motivation {
+        text-align: center;
+    }
+
+    /*--- FAQ ---*/
+    .faqs-container {
+        grid-template-columns: 1fr;
+    }
+
+    .faq {
+        padding: 1.5rem;
+    }
+}
+
+/*--- MEDIA QUERIES (MOBILE) ---*/
+@media screen and (max-width: 600px) {
+
+    /*--- HEADER ---*/
+    header {
+        height: 100vh;
+    }
+
+    .header-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .header-left p {
+        margin-bottom: 1.3rem;
+    }
+
+    /*--- important-for-me ---*/
+    .important-for-me-right {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .category {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .category-icon {
+        margin-top: 4px;
+        display: inline-block;
+    }
+
+    /*--- important-for-me ---*/
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+}
+
