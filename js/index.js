@@ -1,17 +1,34 @@
-// show/hide faq answer
+let slideIndex = 1;
+showSlides(slideIndex);
 
-const faqs = document.querySelectorAll('.faq');
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-faqs.forEach(faq => {
-    faq.addEventListener('click', () => {
-        faq.classList.toggle('open');
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-        // change icon
-        const icon = faq.querySelector('.faq-icon i');
-        if (icon.className === 'uil uil-plus') {
-            icon.className = 'uil uil-minus'
-        } else {
-            icon.className = 'uil uil-plus'
-        }
-    })
-})
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex-1].style.display = "flex";  
+  slides[slideIndex-1].style.justifyContent = "space-around";  
+  slides[slideIndex-1].style.alignItems = "center";  
+  dots[slideIndex-1].className += " active";
+}

@@ -1,233 +1,228 @@
 <!DOCTYPE html>
 <html lang="de">
+<!---------- HEAD ---------->
 <head>
-    <!-- META -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dib-a</title>
-
-    <!-- CSS -->
+    <title>dib-a | Home</title>
+    <!---------- META ---------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!---------- IMPORT CSS ---------->
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/index.css">
-
-    <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-
-    <!-- ICONSCOUT -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"/>
-
+    
+    <!---------- IMPORT FONTS ---------->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!---------- FAVICON ---------->
+    <link rel="icon" type="image/x-icon" href="src/logo-favicon.svg">
+    
+    <!---------- ICON SCOUT ---------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <title>dib-a</title>
 </head>
+<!---------- BODY ---------->
 <body>
-    <!--- NAVBAR --->
+    <!---------- NAV ---------->
     <nav>
-        <div class="container nav-container">
-            <a href="index.html"><img src="src/svg/logo.svg" alt="logo"></a>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="html/projects.html">Projekte</a></li>
-                <li><a href="html/about.html">Über mich</a></li>
-                <li><a href="html/contact.html">Kontakt</a></li>
-            </ul>
-            <button id="open-menu-button"><i class="uil uil-bars"></i></button>
-            <button id="close-menu-button"><i class="uil uil-multiply"></i></button>
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="src/svg/logo-primary-color.svg" alt="logo-dib-a">
+            </a>
+        </div>
+        <div class="nav-menu">
+            <a href="index.html">
+                <i class="uil uil-estate"></i>
+                    Home
+            </a>
+            <a href="#">
+                <i class="uil uil-user-circle"></i>
+                    Über mich
+            </a>
+            <a href="#">
+                <i class="uil uil-apps"></i>
+                Projekte
+            </a>
+            <a href="#">
+                <i class="uil uil-message"></i>
+                Kontakt
+            </a>
         </div>
     </nav>
-    <!--- HEADER --->
-    <header>
-        <div class="container header-container reveal">
+
+    <!---------- MAIN ---------->
+    <main>
+        <!---------- HEADER ---------->
+        <header>
             <div class="header-left">
-                <h1>Informatik mit meinen Augen</h1>
-                <p>Hallo, ich bin Ahmad. Meine Beziehung zu Computern begann in jungen Jahren und ist zu meiner lebenslangen Liebe geworden. Auf dieser Website findest du einige meiner interessanten Projekte und Herausforderungen.</p>
-                <a href="#projects" class="button-red-blue">Siehe selbst</a>
+                <h1>Ahmad Dib</h1>
+                <p>Willkommen auf meiner Homepage, dem virtuellen Raum, in dem ich meine Leidenschaft für die Welt der Technologie und meine Projekte präsentiere. Als begeisterter Informatiker habe ich mir zum Ziel gesetzt, mein Wissen und meine Fähigkeiten mit der Welt zu teilen. Hier finden Sie eine Auswahl meiner bisherigen Projekte und einen Einblick in meine Kenntnisse und Fähigkeiten im Bereich der Informatik.</p>
+                <a href="#my-projects">Zu meinen Projekten</a>
             </div>
             <div class="header-right">
-                <div class="header-right-image">
-                    <img src="src/svg/header-right.svg">
-                </div>
+                <img src="src/svg/header-right.svg" alt="header-right-image">
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!--- IMPORTANT FOR ME --->
-    <section class="important-for-me blue-container">
-        <div class="container important-for-me-container">
-            <div class="important-for-me-left">
-                <h1>Was ist mir wichtig?</h1>
-                <p>Mein Ziel ist es, unserer Gesellschaft die Informatik näher zubringen. Dabei liegt der Fokus auf folgende Punkte.</p>
-            </div>
-            <div class="important-for-me-right reveal">
-                <article class="category">
-                    <span class="category-icon"><i class="uil uil-question-circle"></i></span>
-                    <h5>Zweck</h5>
-                    <p>Es ist wichtig zu verstehen, wozu die Informatik entwickelt wurde und wie sie genutzt werden soll.</p>
-                </article>
+        <hr>
 
-                <article class="category">
-                    <span class="category-icon"><i class="uil uil-channel"></i></span>
-                    <h5>Funktionsweise</h5>
-                    <p>Es ist wichtig zu verstehen, wie die Informatik funktioniert und welche Komponenten sie enthält.</p>
-                </article>
-
-                <article class="category">
-                    <span class="category-icon"><i class="uil uil-expand-arrows"></i></span>
-                    <h5>Einschränkungen</h5>
-                    <p>Es ist wichtig zu verstehen, welche Grenzen die Informatik hat und wann sie möglicherweise nicht in der Lage ist, bestimmte Aufgaben zu erfüllen.</p>
-                </article>
-
-                <article class="category">
-                    <span class="category-icon"><i class="uil uil-tachometer-fast-alt"></i></span>
-                    <h5>Auswirkungen</h5>
-                    <p>Es ist wichtig zu verstehen, wie die Informatik die Gesellschaft, die Wirtschaft und den Einzelnen beeinflusst.</p>
-                </article>
-
-                <article class="category">
-                    <span class="category-icon"><i class="uil uil-shield-plus"></i></span>
-                    <h5>Sicherheit</h5>
-                    <p>Es ist wichtig zu verstehen, welche Sicherheitsbedenken bei der Nutzung der Informatik bestehen und wie man diese angehen kann.</p>
-                </article>
-
-                <article class="category">
-                    <span class="category-icon"><i class="uil uil-code-branch"></i></span>
-                    <h5>Entwicklung</h5>
-                    <p>Es ist wichtig zu verstehen, wie die Informatik entwickelt wurde und wie sie sich im Laufe der Zeit verändert hat.</p>
-                </article>
-            </div>
-        </div>
-    </section>
-    
-    <!--- PROJECTS --->
-    <section id="projects" class="projects">
-        <h2>Veranstaltungen und Projekte</h2>
-        <div class="container projects-container reveal">
-            <article class="project blue-container">
-                <div class="project-image">
-                    <img src="src/svg/scratch.svg" alt="image">
-                </div>
-                <div class="project-info">
-                    <h4>Unterricht</h4>
-                    <p>Mit diesem Projekt versuche ich Kinder bereits früh mit der Informatik und das was dahintersteckt zu konfrontieren. Hierbei wird grundlegendes mathematisches Verständnis aufgebaut und Programme mit Scratch programmiert.</p>
-                    <a href="#" class="button-red-blue">Weitere Informationen</a>
-                </div>
-            </article>
-
-            <article class="project blue-container">
-                <div class="project-image">
-                    <img src="src/svg/tux.svg" alt="image">
-                </div>
-                <div class="project-info">
-                    <h4>Linux</h4>
-                    <p>Bereits nach ersten Kontakten mit der Linuxwelt war ich ihr verfallen. Ich begriff sofort das Ausmaß an Freiheiten, die dieses System bietet und kann mir nicht mehr vorstellen davon weg zu kommen.</p>
-                    <a href="#" class="button-red-blue">Weitere Informationen</a>
-                </div>
-            </article>
-
-            <article class="project blue-container">
-                <div class="project-image">
-                    <img src="src/svg/script.svg" alt="image">
-                </div>
-                <div class="project-info">
-                    <h4>Skripte</h4>
-                    <p>Ich bin davon überzeugt, dass Skripte das Leben wesentlich vereinfachen können. Sei es ein Skript, das dir dein Worksetup aufstellt oder dein System updated und auf dem neusten Stand hält, ihr Einsatz ist sehr vielfältig.</p>
-                    <a href="#" class="button-red-blue">Weitere Informationen</a>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <!--- MOTIVATION -->
-    <section class="blue-container">
-        <h2>Motivation</h2>
-        <div class="container motivations-container reveal">
-            <article class="motivation">
-                <h4>Für mich</h4>
-                <p>Nichts ist zu kompliziert! Wenn man die nötige Zeit und das Durchhaltevermögen besitzt, kann man alles schaffen. Dieser Ansatz motiviert mich immer weiter voran zuschreiten und nicht aufzugeben.</p>
-            </article>
-
-            <article class="motivation">
-                <h4>Für die Homepage</h4>
-                <p>Durch diese Homepage möchte ich meine Erfahrungen und Ambitionen teilen und den Menschen somit die Informatik und dessen Hintergrund näherbringen.</p>
-            </article>
-        </div>
-    </section>
-
-    <!--- FAQ --->
-    <section class="faqs">
-        <h2>FAQs</h2>
-        <div class="container faqs-container reveal">
-            <article class="faq blue-container">
-                <div class="faq-icon"><i class="uil uil-plus"></i></div>
-                <div class="question-answer">
-                    <h4>Wer bist du und was machst du?</h4>
-                    <p>Ich heiße Ahmad und studiere an der TU Braunschweig Informatik.</p>
-                </div>
-            </article>
-
-            <article class="faq blue-container">
-                <div class="faq-icon"><i class="uil uil-plus"></i></div>
-                <div class="question-answer">
-                    <h4>Was ist das Ziel deiner Homepage?</h4>
-                    <p>Ich möchte, dass die Menschen die Informatik mit meinen Augen sehen.</p>
-                </div>
-            </article>
-
-            <article class="faq blue-container">
-                <div class="faq-icon"><i class="uil uil-plus"></i></div>
-                <div class="question-answer">
-                    <h4>Was sind deine Hobbys und Interessen?</h4>
-                    <p>Zu meinen Hobbys zählen: lesen, joggen, Basketball, coden, code, coden</p>
-                </div>
-            </article>
-
-            <article class="faq blue-container">
-                <div class="faq-icon"><i class="uil uil-plus"></i></div>
-                <div class="question-answer">
-                    <h4>Wie kann man mit dir in Kontakt treten?</h4>
-                    <p>Auf der Homepage findest du ein Kontaktformular, wo du mir eine Nachricht hinterlassen kannst.</p>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <!--- FOOTER --->
-    <footer class="blue-container">
-        <div class="container footer-container">
-            <div class="footer-1">
-                <a href="index.html" class="footer-logo"><img src="src/svg/logo.svg" alt="dib-a"></a>
-                <p>Ich hoffe, ich konnte dich mehr für die Informatik begeistern.</p>
-            </div>
-
-            <div class="footer-2">
-                <h4>Links</h4>
-                <ul class="permalinks">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="html/projects.html">Projekte</a></li>
-                    <li><a href="html/about.html">Über mich</a></li>
-                    <li><a href="html/contact.html">Kontakt</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-3">
-                <h4>Kontakt</h4>
+        <!---------- MY SETUP ---------->
+        <section>
+            <h1>Mein Setup</h1>
+            <div class="my-setup">
                 <div>
-                    <p>+49 1590 849 2585</p>
-                    <p>dibahmad09@gmail.com</p>
+                    <a class="arrow arrow-left" onclick="plusSlides(-1)"><i class="uil uil-angle-left"></i></a>
                 </div>
-                <ul class="footer-socials">
-                    <li>
-                        <a href="#"><i class="uil uil-github"></i></a>
-                    </li>
-                </ul>
+                <div>
+                    <a class="arrow arrow-right" onclick="plusSlides(1)"><i class="uil uil-angle-right"></i></a>
+                </div>
+                <div class="slide">
+                    <div class="component">
+                        <img src="src/svg/manjaro-logo.svg" alt="Manjaro-logo">
+                        <h4>Betriebssystem</h4>
+                        <p>Manjaro Linux</p>
+                    </div>
+                    <div class="component">
+                        <img src="src/svg/dwm.svg" alt="Manjaro-logo">
+                        <h4>Window Manager</h4>
+                        <p>dwm</p>
+                    </div>
+                    <div class="component">
+                        <img src="src/svg/vim.svg" alt="Manjaro-logo">
+                        <h4>Text Editor</h4>
+                        <p>vim</p>
+                    </div>
+                    <div class="component">
+                        <img src="src/svg/st.svg" alt="Manjaro-logo">
+                        <h4>Terminal</h4>
+                        <p>st</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="component">
+                        <img src="src/svg/vscodium.svg" alt="vs-code-logo">
+                        <h4>Programmieren</h4>
+                        <p>VS Codium</p>
+                    </div>
+                    <div class="component">
+                        <img src="src/svg/inkscape.svg" alt="Inkscape-logo">
+                        <h4>Vektor Grafiken</h4>
+                        <p>Inkscape</p>
+                    </div>
+                    <div class="component">
+                        <img src="src/svg/gimp.svg" alt="gimp-logo">
+                        <h4>Bildbearbeitung</h4>
+                        <p>GIMP</p>
+                    </div>
+                    <div class="component">
+                        <img src="src/svg/kdenlive.svg" alt="Kdenlive-logo">
+                        <h4>Videobearbeitung</h4>
+                        <p>Kdenlive</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="component">
+                        <img src="src/svg/libreoffice.svg" alt="libre-office-logo">
+                        <h4>Office</h4>
+                        <p>Libre Office</p>
+                    </div>
+                    <div class="component">
+                        <img src="src/svg/xournalpp.svg" alt="xournalpp-logo">
+                        <h4>Notizen</h4>
+                        <p>Xournal++</p>
+                    </div>
+                    <div class="component">
+                        <img src="src/svg/obs.svg" alt="obs-logo">
+                        <h4>Streaming</h4>
+                        <p>obs-studio</p>
+                    </div>
+                    <div class="component">
+                        <img src="src/svg/thunderbird.svg" alt="Thunderbird-logo">
+                        <h4>E-Mail</h4>
+                        <p>Thunderbird</p>
+                    </div>
+                </div>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></s>
+                </div>
             </div>
+        </section>
+
+        <hr>
+
+        <!---------- MY PROJECTS ---------->
+        <section>
+            <h1>Meine Projekte</h1>
+            <div id="my-projects" class="my-projects">
+                <div class="project">
+                    <h3>Kids</h3>
+                    <img src="src/svg/scratch.svg" alt="scratch-logo">
+                    <p>Scratch ist eine visuelle Programmiersprache, die Kindern die Grundlagen des Programmierens auf spielerische Weise beibringt. Es fördert ihre Kreativität und Fantasie und verbessert ihre logischen Fähigkeiten. Das Unterrichten von Scratch bietet den Kindern viele Vorteile und stärkt ihr Selbstbewusstsein.</p>
+                    <a href="#" class="button">Weitere Informationen</a>
+                </div>
+                <div class="project">
+                    <h3>Linux</h3>
+                    <img src="src/svg/tux.svg" alt="tux">
+                    <p>Linux ist eine quelloffene Software, die Freiheit und Anpassungsfähigkeit bietet. Benutzer können ihre Arbeitsumgebung anpassen und erhalten regelmäßig Sicherheitsupdates. Linux ist auch weniger anfällig für Viren und Malware und wird von einer lebendigen Gemeinschaft unterstützt.</p>
+                    <a href="#" class="button">Weitere Informationen</a>
+                </div>
+                <div class="project">
+                    <h3>Skripte</h3>
+                    <img src="src/svg/script.svg" alt="scripts">
+                    <p>Bash-Skripte automatisieren Prozesse und vereinfachen repetitive Aufgaben. Sie sind flexibel, effizient und minimieren das Risiko von Fehlern. Bash-Skripte sind ein wichtiger Bestandteil jeder Automatisierungsstrategie.</p>
+                    <a href="#" class="button">Weitere Informationen</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!---------- FOOTER ---------->
+    <footer>
+        <div class="footer-logo">
+            <a href="index.html">
+                <img src="src/svg/logo-white.svg" alt="logo-dib-a">
+            </a>
         </div>
-        <div class="footer-copyright">
-            <small>Copyright &copy; dib-a</small>
+        <div class="footer-menu">
+            <a href="index.html">
+                <i class="uil uil-estate"></i>
+                    Home
+            </a>
+            <a href="#">
+                <i class="uil uil-user-circle"></i>
+                    Über mich
+            </a>
+            <a href="#">
+                <i class="uil uil-apps"></i>
+                Projekte
+            </a>
+            <a href="#">
+                <i class="uil uil-message"></i>
+                Kontakt
+            </a>
+        </div>
+        <div class="footer-menu">
+            <a href="https://github.com/dib-a">
+                <i class="uil uil-github"></i>
+                Github
+            </a>
+            <a href="https://www.freecodecamp.org/dib-a">
+                <img src="src/svg/freecodecamp.svg" alt="freecodecamp-logo">
+                freecodecamp
+            </a>
         </div>
     </footer>
+    <div class="copyright">
+        &copy Copyright 2023 dib-a
+    </div>
 
-    <!-- JAVASCRIPT -->
-    <script src="js/master.js"></script>
     <script src="js/index.js"></script>
-
 </body>
 </html>

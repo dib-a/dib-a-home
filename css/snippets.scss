@@ -1,0 +1,82 @@
+@import 'variables';
+
+%flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin split($parts) {
+    display: grid;
+    grid-template-columns: repeat($parts, 1fr);
+}
+
+%effect-gradient {
+    transition: $transition;
+    background: $gradient-for-animation;
+    background-size: 200% auto;
+}
+
+%effect-gradient-background {
+    transition: $transition;
+    background: $gradient-for-animation-background;
+    background-size: 200% auto;
+}
+
+@mixin gradient-effect($element) {
+    #{$element} {
+        @extend %effect-gradient;
+        position: relative;
+        color: $color-background;
+    }
+
+    #{$element}::before {
+        @extend %effect-gradient;
+        content: "\2190";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        filter: blur(.5rem);
+    }
+
+    #{$element}:hover,
+    #{$element}:hover::before {
+        background-position: right center;
+    }
+
+}
+
+@mixin gradient-effect-background($element) {
+    #{$element} {
+        @extend %effect-gradient-background;
+        position: relative;
+        color: $color-background;
+    }
+
+    #{$element}::before {
+        @extend %effect-gradient-background;
+        content: "\2190";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        filter: blur(.5rem);
+    }
+
+    #{$element}:hover,
+    #{$element}:hover::before {
+        background-position: right center;
+    }
+
+}

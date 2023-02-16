@@ -1,0 +1,139 @@
+/*---------- IMPORT ----------*/
+@import 'variables';
+@import 'snippets';
+
+/*---------- BASE ----------*/
+* {
+    font-size: $normal-font-size;
+    color: $color-primary;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------- REUSEABLE ----------*/
+
+main {
+    width: $desktop-screen;
+    margin: auto;
+
+    @include gradient-effect(a);
+    a {
+        @extend %flex-center;
+        padding: 1rem 3rem;
+    }
+
+    @include gradient-effect(hr);
+    hr {
+        @extend %flex-center;
+        height: 0.5vh;
+        border-radius: $round;
+    }
+}
+
+h1, h2, h3, h4 {
+    color: $color-secondary;
+    text-align: center;
+}
+
+h1 {
+    font-size: $h1-font-size;
+}
+
+h2 {
+    font-size: $h2-font-size;
+}
+
+h3 {
+    font-size: $h3-font-size;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: $round;
+}
+
+/*---------- NAV ----------*/
+@include gradient-effect-background(nav);
+
+nav {
+    @extend %flex-between;
+    background: $color-background;
+    padding: 1vh 10vw;
+    height: 5vh;
+
+    .nav-menu {
+        @extend %flex-center;
+
+        a:hover {
+            background: $gradient-primary;
+            color: $color-background;
+
+            i {
+                color: $color-background;
+            }
+        }
+    }
+}
+
+/*---------- FOOTER ----------*/
+@include gradient-effect(footer);
+footer {
+    @include split(3);
+    background: $gradient-primary;
+    padding: 1vh 10vw;
+    margin-top: 5vh;
+    height: 30vh;
+
+    .footer-logo {
+        @extend %flex-center;
+
+        img {
+            width: 20vw;
+            height: auto
+        }
+    }
+
+    .footer-menu {
+        @extend %flex-center;
+        flex-direction: column;
+
+        @include gradient-effect(a);
+        a, i {
+            @extend %flex-between;
+            margin: 0.2rem;
+            width: 20vw;
+            border-bottom: $border transparent;
+            border-radius: 0;
+            font-size: $h3-font-size;
+        }
+
+        a:hover {
+            border-bottom: $border $color-background;
+        }
+
+        img,
+        i {
+            @extend %flex-center;
+            color: $color-background;
+            height: $h3-font-size;
+            width: $h3-font-size;
+        }
+    }
+}
+
+.copyright {
+    @extend %flex-center;
+    background: $gradient-primary;
+    color: $color-background;
+    border-top: $border $color-background;
+    padding: 0.5rem;
+}

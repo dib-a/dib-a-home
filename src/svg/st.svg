@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#000000"
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   role="img"
+   version="1.1"
+   id="svg197"
+   sodipodi:docname="st.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs201" />
+  <sodipodi:namedview
+     id="namedview199"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.54500001"
+     inkscape:cx="550.45871"
+     inkscape:cy="245.87156"
+     inkscape:window-width="1918"
+     inkscape:window-height="1055"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg197" />
+  <g
+     id="g771"
+     transform="matrix(1.3855078,0,0,1.3855078,-9.5701834,-6.2302794)">
+    <rect
+       style="opacity:1;fill:#000000;stroke-width:0.00945028"
+       id="rect413"
+       width="1.9996295"
+       height="5.9726396"
+       x="13.568802"
+       y="10.166247"
+       ry="0" />
+    <rect
+       style="opacity:1;fill:#000000;stroke-width:0.00945028"
+       id="rect969"
+       width="1.9996295"
+       height="5.9726396"
+       x="-16.149418"
+       y="9.5957918"
+       ry="0"
+       transform="rotate(-90)" />
+    <rect
+       style="opacity:1;fill:#000000;stroke-width:0.00945028"
+       id="rect971"
+       width="1.9996295"
+       height="5.9726396"
+       x="-12.165876"
+       y="15.568432"
+       ry="0"
+       transform="rotate(-90)" />
+    <rect
+       style="opacity:1;fill:#000000;stroke-width:0.00945028"
+       id="rect973"
+       width="1.9996295"
+       height="5.9726396"
+       x="17.541813"
+       y="10.166247"
+       ry="0" />
+  </g>
+</svg>

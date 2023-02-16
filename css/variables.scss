@@ -1,0 +1,35 @@
+$color-primary:#141e30; /*#141e30*/
+$color-secondary: #243b55; /*#96163f*/
+$color-background: rgba(255, 255, 255 ,1); /*#ffffff*/
+
+$shadow: 0 0 1rem $color-primary;
+$shadow-inset: inset 0 0 1rem $color-primary;
+
+$gradient-primary: linear-gradient(to right,$color-primary 20%, $color-secondary 100%);
+$gradient-for-animation: linear-gradient(to right, $color-primary 20%, $color-secondary 51%, $color-primary 80%);
+$gradient-for-animation-background: linear-gradient(to right, $color-primary 20%, $color-background 51%, $color-primary 80%);
+
+$border: 1px solid;
+
+/*---------- DEFINE FONT AND TYPOGRAPHY ----------*/
+$font: 'Poppins', sans-serif;
+
+$h1-font-size: 3rem;
+$h2-font-size: 2.0rem;
+$h3-font-size: 1.4rem;
+$normal-font-size: 1rem;
+$small-font-size: 0.8rem;
+
+$font-medium: 500;
+$font-semi-bold: 600;
+
+/*---------- DEFINE LAYOUT ----------*/
+$desktop-screen: 82vw;
+$tablet-screen: 88vw;
+$mobile-screen: 94vw;
+
+$round: 1rem;
+$space: 5rem;
+
+/*---------- DEFINE FOR ANIMATION ----------*/
+$transition: 0.5s;
