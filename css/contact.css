@@ -71,7 +71,8 @@ main a::before {
   right: 0;
   bottom: 0;
   left: 0;
-  filter: blur(0.5rem);
+  border-radius: 1rem;
+  filter: blur(0.75rem);
 }
 main a:hover,
 main a:hover::before {
@@ -92,7 +93,8 @@ main hr::before {
   right: 0;
   bottom: 0;
   left: 0;
-  filter: blur(0.5rem);
+  border-radius: 1rem;
+  filter: blur(0.75rem);
 }
 main hr:hover,
 main hr:hover::before {
@@ -146,7 +148,8 @@ nav::before {
   right: 0;
   bottom: 0;
   left: 0;
-  filter: blur(0.5rem);
+  border-radius: 1rem;
+  filter: blur(0.75rem);
 }
 
 nav:hover,
@@ -183,7 +186,8 @@ footer::before {
   right: 0;
   bottom: 0;
   left: 0;
-  filter: blur(0.5rem);
+  border-radius: 1rem;
+  filter: blur(0.75rem);
 }
 
 footer:hover,
@@ -218,7 +222,8 @@ footer .footer-menu a::before {
   right: 0;
   bottom: 0;
   left: 0;
-  filter: blur(0.5rem);
+  border-radius: 1rem;
+  filter: blur(0.75rem);
 }
 footer .footer-menu a:hover,
 footer .footer-menu a:hover::before {
@@ -304,7 +309,8 @@ footer .footer-menu i {
   right: 0;
   bottom: 0;
   left: 0;
-  filter: blur(0.5rem);
+  border-radius: 1rem;
+  filter: blur(0.75rem);
 }
 .contact .contact-right button:hover,
 .contact .contact-right button:hover::before {
