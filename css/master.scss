@@ -59,6 +59,7 @@ a {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: $round;
+    margin: 0.5rem;
 }
 
 /*---------- NAV ----------*/
@@ -72,6 +73,7 @@ nav {
     .nav-menu {
         @extend %flex-center;
 
+        .active,
         a:hover {
             background: $gradient-primary;
             color: $color-background;
