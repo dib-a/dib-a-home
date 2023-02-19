@@ -25,7 +25,7 @@ footer .footer-menu a, footer .footer-menu i, nav {
 
 footer .footer-menu a::before, footer .footer-menu a, footer::before, footer, nav::before, nav, main hr::before, main hr, main a::before, main a {
   transition: 0.5s;
-  background: linear-gradient(to right, #001e50 20%, #00437a 51%, #001e50 80%);
+  background: linear-gradient(to right, #001e50 0%, #00437a 50%, #001e50 100%);
   background-size: 200% auto;
 }
 
@@ -116,6 +116,7 @@ a {
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
+  margin: 0.5rem;
 }
 
 /*---------- NAV ----------*/
@@ -145,10 +146,12 @@ nav {
   padding: 1vh 10vw;
   height: 5vh;
 }
+nav .nav-menu .active,
 nav .nav-menu a:hover {
-  background: linear-gradient(to right, #001e50 20%, #00437a 100%);
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
   color: #ffffff;
 }
+nav .nav-menu .active i,
 nav .nav-menu a:hover i {
   color: #ffffff;
 }
@@ -178,7 +181,7 @@ footer:hover::before {
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background: linear-gradient(to right, #001e50 20%, #00437a 100%);
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
   padding: 1vh 10vw;
   margin-top: 5vh;
   height: 30vh;
@@ -226,7 +229,7 @@ footer .footer-menu i {
 }
 
 .copyright {
-  background: linear-gradient(to right, #001e50 20%, #00437a 100%);
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
   color: #ffffff;
   border-top: 1px solid #ffffff;
   padding: 0.5rem;

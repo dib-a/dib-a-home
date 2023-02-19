@@ -123,6 +123,7 @@ a {
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
+  margin: 0.5rem;
 }
 
 /*---------- NAV ----------*/
@@ -152,10 +153,12 @@ nav {
   padding: 1vh 10vw;
   height: 5vh;
 }
+nav .nav-menu .active,
 nav .nav-menu a:hover {
   background: linear-gradient(to right, #001e50 0%, #00437a 100%);
   color: #ffffff;
 }
+nav .nav-menu .active i,
 nav .nav-menu a:hover i {
   color: #ffffff;
 }
@@ -269,7 +272,7 @@ header .header-left a {
   margin: 5rem;
 }
 .my-setup .slide .component img {
-  height: 50%;
+  height: 40%;
 }
 .my-setup .slide .component:hover {
   transform: scale(1.2);
@@ -351,6 +354,6 @@ header .header-left a {
   width: auto;
   margin: 3rem;
 }
-.my-projects .project a {
-  margin-top: 2.5rem;
+.my-projects .project p {
+  height: 25vh;
 }/*# sourceMappingURL=index.css.map */
