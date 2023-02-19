@@ -1,0 +1,65 @@
+/*---------- IMPORT ----------*/
+@import 'variables';
+@import 'master';
+
+/*---------- CONTACT ----------*/
+.contact {
+    @include split(2);
+    height: 70vh;
+
+    .contact-left {
+        width: 15vw;  
+        margin: auto 0;
+
+        .entry {
+            @extend %flex-left;
+            width: 100%;
+            margin: 1rem 0;
+        
+            img,
+            i {
+                @extend %flex-center;
+                background: $gradient-primary;
+                color: $color-background;
+                border-radius: $round;
+                padding: 0.5rem;
+                margin-right: 1rem;
+                font-size: $h3-font-size;
+                height: $h3-font-size;
+            }
+        }
+    }
+
+    .contact-right{
+        margin: auto 0;
+
+        label {
+            display: block;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+          
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 0.5rem;
+            resize: none;
+        }
+
+        textarea {
+            height: 25vh;
+        }
+
+        @include gradient-effect(button);
+        button[type="submit"] {
+            color: $color-background;
+            border: none;
+            border-radius: $round;
+            padding: 1rem 5rem;
+            cursor: pointer;
+        }
+    }
+}
