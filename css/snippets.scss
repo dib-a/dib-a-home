@@ -45,7 +45,8 @@
         right: 0;
         bottom: 0;
         left: 0;
-        filter: blur(.5rem);
+        border-radius: $round;
+        filter: blur(.75rem);
     }
 
     #{$element}:hover,
