@@ -16,7 +16,8 @@
 /*---------- DEFINE FONT AND TYPOGRAPHY ----------*/
 /*---------- DEFINE LAYOUT ----------*/
 /*---------- DEFINE FOR ANIMATION ----------*/
-.copyright, footer .footer-menu img,
+.contact .contact-left .entry img,
+.contact .contact-left .entry i, .copyright, footer .footer-menu img,
 footer .footer-menu i, footer .footer-menu, footer .footer-logo, nav .nav-menu, main hr, main a {
   display: flex;
   align-items: center;
@@ -29,7 +30,13 @@ footer .footer-menu a, footer .footer-menu i, nav {
   justify-content: space-between;
 }
 
-footer .footer-menu a::before, footer .footer-menu a, footer::before, footer, nav::before, nav, main hr::before, main hr, main a::before, main a {
+.contact .contact-left .entry {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.contact .contact-right button::before, .contact .contact-right button, footer .footer-menu a::before, footer .footer-menu a, footer::before, footer, nav::before, nav, main hr::before, main hr, main a::before, main a {
   transition: 0.5s;
   background: linear-gradient(to right, #001e50 0%, #00437a 50%, #001e50 100%);
   background-size: 200% auto;
@@ -239,4 +246,74 @@ footer .footer-menu i {
   color: #ffffff;
   border-top: 1px solid #ffffff;
   padding: 0.5rem;
+}
+
+/*---------- CONTACT ----------*/
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 70vh;
+}
+.contact .contact-left {
+  width: 15vw;
+  margin: auto 0;
+}
+.contact .contact-left .entry {
+  width: 100%;
+  margin: 1rem 0;
+}
+.contact .contact-left .entry img,
+.contact .contact-left .entry i {
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  height: 1.4rem;
+}
+.contact .contact-right {
+  margin: auto 0;
+}
+.contact .contact-right label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.contact .contact-right input,
+.contact .contact-right textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  resize: none;
+}
+.contact .contact-right textarea {
+  height: 25vh;
+}
+.contact .contact-right button {
+  position: relative;
+  color: #ffffff;
+}
+.contact .contact-right button::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(0.5rem);
+}
+.contact .contact-right button:hover,
+.contact .contact-right button:hover::before {
+  background-position: right center;
+}
+.contact .contact-right button[type=submit] {
+  color: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 5rem;
+  cursor: pointer;
 }/*# sourceMappingURL=contact.css.map */

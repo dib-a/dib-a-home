@@ -54,8 +54,40 @@
     </nav>
 
     <!---------- MAIN ---------->
-    <main></main>
-
+    <main>
+        <h1>Sende mir eine Nachricht</h1>
+        <section class="contact">
+            <div class="contact-left">
+                <div class="entry">
+                    <i class="uil uil-user-circle"></i>
+                    Ahmad Dib
+                </div>
+                <div class="entry">
+                    <i class="uil uil-location-point"></i>
+                    <p>38118 Braunschweig</p>
+                </div>
+                <div class="entry">
+                    <i class="uil uil-at"></i>
+                    <p>dib.ahmad.00@gmail.com</p>
+                </div>
+                <div class="entry">
+                    <i class="uil uil-github"></i>
+                    dib-a
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="https://formsubmit.co/dib.ahmad.00@gmail.com" method="POST">
+		        <label for="name">Name:</label>
+		        <input type="text" id="name" name="name" required><br><br>
+		        <label for="email">Email:</label>
+		        <input type="email" id="email" name="email" required><br><br>
+		        <label for="message">Message:</label><br>
+		        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <button type="submit">Send</button>
+            	</form>
+            </div>
+        </section>
+    </main>
 
     <!---------- FOOTER ---------->
     <footer>
