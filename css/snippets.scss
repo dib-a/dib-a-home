@@ -12,6 +12,12 @@
     justify-content: space-between;
 }
 
+%flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
 @mixin split($parts) {
     display: grid;
     grid-template-columns: repeat($parts, 1fr);
