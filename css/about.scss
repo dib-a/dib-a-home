@@ -1,3 +1,15 @@
 /*---------- IMPORT ----------*/
 @import 'variables';
 @import 'master';
+
+/*---------- ABOUT ME ----------*/
+.about-me {
+    @include split(2);
+
+    .point {
+
+        h3, p {
+            text-align: left;
+        }
+    }
+}
