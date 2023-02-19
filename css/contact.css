@@ -1,0 +1,242 @@
+/*---------- IMPORT ----------*/ /*#141e30*/
+/*#96163f*/
+/*#ffffff*/
+/*---------- DEFINE FONT AND TYPOGRAPHY ----------*/
+/*---------- DEFINE LAYOUT ----------*/
+/*---------- DEFINE FOR ANIMATION ----------*/
+/*---------- IMPORT ----------*/ /*#141e30*/
+/*#96163f*/
+/*#ffffff*/
+/*---------- DEFINE FONT AND TYPOGRAPHY ----------*/
+/*---------- DEFINE LAYOUT ----------*/
+/*---------- DEFINE FOR ANIMATION ----------*/
+/*#141e30*/
+/*#96163f*/
+/*#ffffff*/
+/*---------- DEFINE FONT AND TYPOGRAPHY ----------*/
+/*---------- DEFINE LAYOUT ----------*/
+/*---------- DEFINE FOR ANIMATION ----------*/
+.copyright, footer .footer-menu img,
+footer .footer-menu i, footer .footer-menu, footer .footer-logo, nav .nav-menu, main hr, main a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-menu a, footer .footer-menu i, nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-menu a::before, footer .footer-menu a, footer::before, footer, nav::before, nav, main hr::before, main hr, main a::before, main a {
+  transition: 0.5s;
+  background: linear-gradient(to right, #001e50 0%, #00437a 50%, #001e50 100%);
+  background-size: 200% auto;
+}
+
+/*---------- BASE ----------*/
+* {
+  font-size: 1rem;
+  color: #001e50;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*---------- REUSEABLE ----------*/
+main {
+  width: 82vw;
+  margin: auto;
+}
+main a {
+  position: relative;
+  color: #ffffff;
+}
+main a::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(0.5rem);
+}
+main a:hover,
+main a:hover::before {
+  background-position: right center;
+}
+main a {
+  padding: 1rem 3rem;
+}
+main hr {
+  position: relative;
+  color: #ffffff;
+}
+main hr::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(0.5rem);
+}
+main hr:hover,
+main hr:hover::before {
+  background-position: right center;
+}
+main hr {
+  height: 0.5vh;
+  border-radius: 1rem;
+  border: 0;
+}
+
+h1, h2, h3, h4 {
+  color: #00437a;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+/*---------- NAV ----------*/
+nav {
+  position: relative;
+  color: #ffffff;
+}
+
+nav::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(0.5rem);
+}
+
+nav:hover,
+nav:hover::before {
+  background-position: right center;
+}
+
+nav {
+  background: #ffffff;
+  padding: 1vh 10vw;
+  height: 5vh;
+}
+nav .nav-menu .active,
+nav .nav-menu a:hover {
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
+  color: #ffffff;
+}
+nav .nav-menu .active i,
+nav .nav-menu a:hover i {
+  color: #ffffff;
+}
+
+/*---------- FOOTER ----------*/
+footer {
+  position: relative;
+  color: #ffffff;
+}
+
+footer::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(0.5rem);
+}
+
+footer:hover,
+footer:hover::before {
+  background-position: right center;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
+  padding: 1vh 10vw;
+  margin-top: 5vh;
+  height: 30vh;
+}
+footer .footer-logo img {
+  width: 20vw;
+  height: auto;
+}
+footer .footer-menu {
+  flex-direction: column;
+}
+footer .footer-menu a {
+  position: relative;
+  color: #ffffff;
+}
+footer .footer-menu a::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(0.5rem);
+}
+footer .footer-menu a:hover,
+footer .footer-menu a:hover::before {
+  background-position: right center;
+}
+footer .footer-menu a, footer .footer-menu i {
+  margin: 0.2rem;
+  width: 20vw;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  font-size: 1rem;
+}
+footer .footer-menu a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+footer .footer-menu img,
+footer .footer-menu i {
+  color: #ffffff;
+  height: 1.4rem;
+  width: 1.4rem;
+}
+
+.copyright {
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 0.5rem;
+}/*# sourceMappingURL=contact.css.map */
