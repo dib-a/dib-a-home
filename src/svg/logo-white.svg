@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="200"
-   height="40"
-   viewBox="0 0 52.916667 10.583333"
+   width="60mm"
+   height="11mm"
+   viewBox="0 0 60.000001 11"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -25,15 +25,15 @@
      inkscape:document-units="mm"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="96.431686"
-     inkscape:cy="1.2374369"
+     inkscape:zoom="11.313709"
+     inkscape:cx="181.15192"
+     inkscape:cy="19.357048"
      inkscape:window-width="1918"
      inkscape:window-height="1055"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g397" />
+     inkscape:current-layer="layer3" />
   <defs
      id="defs2" />
   <g
@@ -44,59 +44,50 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="laptop">
-    <g
-       id="g397"
-       transform="translate(0.21199439,0.06693906)">
-      <text
-         xml:space="preserve"
-         style="font-size:13.3296px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#ffffff;fill-opacity:1;stroke-width:1.1108"
-         x="-0.10304952"
-         y="10.197374"
-         id="text236"
-         transform="scale(0.99203809,1.0080258)"><tspan
-           sodipodi:role="line"
-           id="tspan234"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Medium';fill:#ffffff;fill-opacity:1;stroke-width:1.1108"
-           x="-0.10304952"
-           y="10.197374">dib-a</tspan></text>
-      <g
-         id="g280"
-         transform="translate(0,-1.1806416)"
-         style="fill:#ffffff">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.72661px;font-family:Poppins;-inkscape-font-specification:Poppins;letter-spacing:0px;fill:#ffffff;fill-opacity:1;stroke-width:0.647478"
-           x="42.663811"
-           y="6.7669182"
-           id="text398"
-           transform="scale(0.9920381,1.0080258)"><tspan
-             sodipodi:role="line"
-             id="tspan396"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.72661px;font-family:Poppins;-inkscape-font-specification:Poppins;fill:#ffffff;fill-opacity:1;stroke-width:0.647478"
-             x="42.663811"
-             y="6.7669182">Informatik</tspan></text>
-        <path
-           d="m 41.885563,2.8607287 c -0.324749,0 -0.590982,0.2712072 -0.590982,0.6011914 V 8.867172 c 0,0.3299809 0.266212,0.6005029 0.590982,0.6005029 h 9.086879 c 0.324738,0 0.590977,-0.2705214 0.590977,-0.6005029 V 3.4619201 c 0,-0.3299813 -0.266216,-0.6011914 -0.590977,-0.6011914 z m 0,0.3439128 h 9.086879 c 0.14309,0 0.252517,0.1118389 0.252517,0.2572842 v 5.4052515 c 0,0.14544 -0.1094,0.2565899 -0.252517,0.2565899 h -9.086879 c -0.14309,0 -0.252506,-0.111152 -0.252506,-0.2565899 V 3.4619201 c 0,-0.1454401 0.10942,-0.257284 0.252506,-0.2572786 z"
-           color="#000000"
-           color-rendering="auto"
-           fill="#555555"
-           image-rendering="auto"
-           shape-rendering="auto"
-           solid-color="#000000"
-           style="text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;white-space:normal;isolation:auto;mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.341174"
-           id="path5970" />
-        <path
-           id="path5972"
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.341174"
-           d="m 40.752481,9.5673269 c 0,0.3630326 0.246775,0.6560831 0.553131,0.6560831 h 10.246897 c 0.306368,0 0.55313,-0.2930533 0.55313,-0.6560831 z m 4.821059,0.1377777 c 0.0028,-6.356e-4 0.0076,0 0.01079,0 h 1.689524 c 0.02581,0 0.04734,0.02158 0.04734,0.048114 0,0.026493 -0.02132,0.048114 -0.04734,0.048114 H 45.58433 c -0.02623,0 -0.04734,-0.02158 -0.04734,-0.048114 0,-0.023191 0.01515,-0.043665 0.03666,-0.048114 z" />
-      </g>
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.055107;stroke-dasharray:none;stroke-opacity:1"
-         id="rect6948"
-         width="0.34583768"
-         height="8.0187521"
-         x="35.888142"
-         y="1.3520517" />
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:13.3295px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#ffffff;fill-opacity:1;stroke-width:1.11079"
+       x="-0.49319151"
+       y="10.528085"
+       id="text236"
+       transform="scale(0.9920381,1.0080258)"><tspan
+         sodipodi:role="line"
+         id="tspan234"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Medium';fill:#ffffff;fill-opacity:1;stroke-width:1.11079"
+         x="-0.49319151"
+         y="10.528085">dib-a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.45458px;font-family:Poppins;-inkscape-font-specification:Poppins;letter-spacing:0px;fill:#ffffff;fill-opacity:1;stroke-width:0.920465"
+       x="46.053238"
+       y="5.8499079"
+       id="text398"
+       transform="scale(0.9920381,1.0080258)"><tspan
+         sodipodi:role="line"
+         id="tspan396"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.45458px;font-family:Poppins;-inkscape-font-specification:Poppins;fill:#ffffff;fill-opacity:1;stroke-width:0.920465"
+         x="46.053238"
+         y="5.8499079">Informatik</tspan></text>
+    <path
+       d="m 45.471065,0.26654833 c -0.461668,0 -0.840149,0.38555242 -0.840149,0.85466317 v 7.6841909 c 0,0.4691061 0.378451,0.8536844 0.840149,0.8536844 h 12.91805 c 0.461652,0 0.840142,-0.3845775 0.840142,-0.8536844 V 1.1212115 c 0,-0.46910663 -0.378457,-0.85466317 -0.840142,-0.85466317 z m 0,0.48891184 h 12.91805 c 0.203419,0 0.358982,0.15899194 0.358982,0.36575923 v 7.6841904 c 0,0.2067598 -0.155525,0.3647723 -0.358982,0.3647723 h -12.91805 c -0.203419,0 -0.358967,-0.1580155 -0.358967,-0.3647723 V 1.1212115 c 0,-0.20675996 0.155554,-0.36575901 0.358967,-0.36575133 z"
+       color="#000000"
+       color-rendering="auto"
+       fill="#555555"
+       image-rendering="auto"
+       shape-rendering="auto"
+       solid-color="#000000"
+       style="text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;white-space:normal;isolation:auto;mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.485018"
+       id="path5970" />
+    <path
+       id="path5972"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.485018"
+       d="m 43.860173,9.8007536 c 0,0.5160924 0.350819,0.9326984 0.78634,0.9326984 H 59.213662 C 59.6492,10.733452 60,10.316842 60,9.8007536 Z m 6.853693,0.195867 c 0.004,-9.036e-4 0.0108,0 0.01534,0 h 2.401854 c 0.03669,0 0.0673,0.030678 0.0673,0.068399 0,0.03766 -0.03031,0.0684 -0.0673,0.0684 h -2.401854 c -0.03729,0 -0.0673,-0.03068 -0.0673,-0.0684 0,-0.03297 0.02154,-0.06208 0.05212,-0.068399 z" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0629594;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6948"
+       width="0.34583449"
+       height="10.466904"
+       x="40.078136"
+       y="0.26654816" />
   </g>
 </svg>
