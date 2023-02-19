@@ -1,13 +1,12 @@
-$color-primary:#141e30; /*#141e30*/
-$color-secondary: #243b55; /*#96163f*/
-$color-background: rgba(255, 255, 255 ,1); /*#ffffff*/
+$color-primary:#001e50; /*#141e30*/
+$color-secondary: #00437a; /*#96163f*/
+$color-background: #ffffff; /*#ffffff*/
 
 $shadow: 0 0 1rem $color-primary;
 $shadow-inset: inset 0 0 1rem $color-primary;
 
-$gradient-primary: linear-gradient(to right,$color-primary 20%, $color-secondary 100%);
-$gradient-for-animation: linear-gradient(to right, $color-primary 20%, $color-secondary 51%, $color-primary 80%);
-$gradient-for-animation-background: linear-gradient(to right, $color-primary 20%, $color-background 51%, $color-primary 80%);
+$gradient-primary: linear-gradient(to right,$color-primary 0%, $color-secondary 100%);
+$gradient-for-animation: linear-gradient(to right, $color-primary 0%, $color-secondary 50%, $color-primary 100%);
 
 $border: 1px solid;
 
@@ -30,6 +29,7 @@ $mobile-screen: 94vw;
 
 $round: 1rem;
 $space: 5rem;
+$small-space: 2.5rem;
 
 /*---------- DEFINE FOR ANIMATION ----------*/
 $transition: 0.5s;

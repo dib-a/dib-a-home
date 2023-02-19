@@ -13,7 +13,7 @@ header {
         flex-direction: column;
 
         a {
-            margin-top: $space/2;
+            margin-top: $small-space;
         }
     }
 }
@@ -23,6 +23,32 @@ header {
     @extend %flex-between;
     flex-direction: column;
     position: relative;
+
+    .slide {
+        @extend %flex-between;
+        height: 40vh;
+
+        .component {
+            @extend %flex-center;
+            flex-direction: column;
+            width: 10rem;
+            height: 100%;
+            margin: 5rem;
+
+            img {
+                height: 50%;
+            }
+        }
+
+        .component:hover {
+            transform: scale(1.2);
+            transition: $transition;
+        }
+    }
+
+    a {
+        padding: 0.5rem 2rem;
+    }
 
     .arrow {
         cursor: pointer;
@@ -55,7 +81,7 @@ header {
             height: 1rem;
             width: 1rem;
             margin: 0 0.2rem;
-            background-color: $color-secondary;
+            background-color: #b2b2b2;
             border-radius: $round;
             display: inline-block;
         }
@@ -65,32 +91,13 @@ header {
         }
     }
 
-    .slide {
-        @extend %flex-between;
-
-        .component {
-            @extend %flex-center;
-            flex-direction: column;
-            width: 10rem;
-            margin: 5rem;
-
-            img {
-                width: 100%;
-            }
-        }
-
-        .component:hover {
-            transform: scale(1.5);
-            transition: $transition;
-        }
-    }
 }
 
 /*---------- MY PROJECTS ----------*/
 .my-projects{
     @include split(3);
 
-    @include gradient-effect-background('.project');
+    @include gradient-effect('.project');
     .project {
         @extend %flex-center;
         height: 70vh;
@@ -107,7 +114,8 @@ header {
         }
 
         a {
-            margin-top: $space/2;
+            margin-top: $small-space;
         }
+
     }
 }

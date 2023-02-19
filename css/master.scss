@@ -9,13 +9,12 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: $font;
     margin: 0;
     padding: 0;
 }
 
 /*---------- REUSEABLE ----------*/
-
 main {
     width: $desktop-screen;
     margin: auto;
@@ -31,6 +30,7 @@ main {
         @extend %flex-center;
         height: 0.5vh;
         border-radius: $round;
+        border: 0;
     }
 }
 
@@ -62,8 +62,7 @@ a {
 }
 
 /*---------- NAV ----------*/
-@include gradient-effect-background(nav);
-
+@include gradient-effect(nav);
 nav {
     @extend %flex-between;
     background: $color-background;
@@ -113,7 +112,7 @@ footer {
             width: 20vw;
             border-bottom: $border transparent;
             border-radius: 0;
-            font-size: $h3-font-size;
+            font-size: $normal-font-size;
         }
 
         a:hover {
