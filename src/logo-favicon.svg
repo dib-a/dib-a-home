@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="70"
-   height="40"
-   viewBox="0 0 18.520833 10.583333"
+   width="20.5mm"
+   height="10.583333mm"
+   viewBox="0 0 20.5 10.583333"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -26,8 +26,8 @@
      showgrid="false"
      showguides="true"
      inkscape:zoom="11.313709"
-     inkscape:cx="33.631766"
-     inkscape:cy="19.622213"
+     inkscape:cx="27.356192"
+     inkscape:cy="27.842328"
      inkscape:window-width="1918"
      inkscape:window-height="1055"
      inkscape:window-x="0"
@@ -50,15 +50,15 @@
       <text
          xml:space="preserve"
          style="font-size:13.3296px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#141e30;fill-opacity:1;stroke-width:1.1108"
-         x="-0.53625476"
-         y="10.061763"
+         x="-0.67173892"
+         y="10.255042"
          id="text236"
          transform="scale(0.9920381,1.0080258)"><tspan
            sodipodi:role="line"
            id="tspan234"
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Medium';fill:#141e30;fill-opacity:1;stroke-width:1.1108"
-           x="-0.53625476"
-           y="10.061763">dib</tspan></text>
+           x="-0.67173892"
+           y="10.255042">dib</tspan></text>
     </g>
   </g>
 </svg>
