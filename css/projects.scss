@@ -1,3 +1,26 @@
 /*---------- IMPORT ----------*/
 @import 'variables';
 @import 'master';
+
+/*---------- MY-PROJECTS ----------*/
+
+.my-projects {
+    .project {
+        @include split(2);
+
+        .image-links {
+            @extend %flex-between;
+            height: 50%;
+            margin: auto;
+            flex-direction: column;
+
+            img {
+                height: 15vh;
+            }
+        }
+
+        p {
+            text-align: left;
+        }
+    }
+}
