@@ -23,7 +23,7 @@ footer .footer-menu i, footer .footer-menu, footer .footer-logo, nav .nav-menu, 
   justify-content: center;
 }
 
-footer .footer-menu a, footer .footer-menu i, nav {
+.my-projects .project .image-links, footer .footer-menu a, footer .footer-menu i, nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -244,4 +244,21 @@ footer .footer-menu i {
   color: #ffffff;
   border-top: 1px solid #ffffff;
   padding: 0.5rem;
+}
+
+/*---------- MY-PROJECTS ----------*/
+.my-projects .project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.my-projects .project .image-links {
+  height: 50%;
+  margin: auto;
+  flex-direction: column;
+}
+.my-projects .project .image-links img {
+  height: 15vh;
+}
+.my-projects .project p {
+  text-align: left;
 }/*# sourceMappingURL=projects.css.map */
