@@ -73,7 +73,7 @@ mkdir /mnt/boot/efi
 mount -L EFI /mnt/boot/efi
 
 # Install base system
-basestrap /mnt base base-devel linux61 linux-firmware dhcpcd grub mkinitcpio efibootmgr git vim sudo
+basestrap /mnt base base-devel linux65 linux-firmware dhcpcd grub mkinitcpio efibootmgr git neovim sudo
 
 # Generate fstab
 fstabgen -U /mnt > /mnt/etc/fstab
