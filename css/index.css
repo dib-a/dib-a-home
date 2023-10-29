@@ -1,10 +1,12 @@
-/*---------- IMPORT ----------*/ /*#141e30*/
+/*---------- IMPORT ----------*/
+/*#141e30*/
 /*#96163f*/
 /*#ffffff*/
 /*---------- DEFINE FONT AND TYPOGRAPHY ----------*/
 /*---------- DEFINE LAYOUT ----------*/
 /*---------- DEFINE FOR ANIMATION ----------*/
-/*---------- IMPORT ----------*/ /*#141e30*/
+/*---------- IMPORT ----------*/
+/*#141e30*/
 /*#96163f*/
 /*#ffffff*/
 /*---------- DEFINE FONT AND TYPOGRAPHY ----------*/
@@ -275,9 +277,10 @@ header .header-left a {
   width: 10rem;
   height: 100%;
   margin: 5rem;
+  transition: 0.5s;
 }
 .my-setup .slide .component img {
-  height: 40%;
+  height: 30%;
 }
 .my-setup .slide .component:hover {
   transform: scale(1.2);
